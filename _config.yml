@@ -1,0 +1,13 @@
+# Site settings
+title: Civic Views
+email: pauljmackay@gmail.com
+description: "."
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: _sass
