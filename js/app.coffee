@@ -1,7 +1,8 @@
 ---
 ---
 
-API_ENDPOINT = 'http://localhost:5000/api'
+# API_ENDPOINT = 'http://localhost:5000/api'
+API_ENDPOINT = 'http://civicapi.herokuapp.com/api'
 
 
 app = angular.module('CivicViews', [])

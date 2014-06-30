@@ -7,8 +7,9 @@ layout: default
 <div ng-controller="ProjectsController">
 <div ng-repeat="org in orgs">
   <h2>
-    {(org.website)}
+    {(org.name)}
   </h2>
+  <p><a href="{(org.website)}">{(org.website)}</a></p>
   <h3>Projects</h3>
   <div ng-repeat="project in org.current_projects">
     <p>{(project.name)}</p>
